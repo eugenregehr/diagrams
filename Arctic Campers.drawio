@@ -1,23 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T15:49:14.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="HnS7vVJa6hb34hXCgnbl" version="15.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T15:59:15.499Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="x66f0xsssae7HIXNwiCT" version="15.6.1" type="github">
   <diagram id="tskGtdOAMO9KEqky0ZxF" name="Page-1">
     <mxGraphModel dx="1034" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="KVLrl0ZjzjOLLqqqyJ7u-1" target="KVLrl0ZjzjOLLqqqyJ7u-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KVLrl0ZjzjOLLqqqyJ7u-1" value="Booking Mini-Widget&lt;br&gt;Vue App" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="40" width="240" height="120" as="geometry" />
+          <mxGeometry x="120" y="40" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="KVLrl0ZjzjOLLqqqyJ7u-2" target="fuM4s-kWlybQYmMzZw5S-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KVLrl0ZjzjOLLqqqyJ7u-2" value="Booking Site&lt;br&gt;Vue App" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="40" width="240" height="120" as="geometry" />
+          <mxGeometry x="480" y="40" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="KVLrl0ZjzjOLLqqqyJ7u-3" target="fuM4s-kWlybQYmMzZw5S-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KVLrl0ZjzjOLLqqqyJ7u-3" value="fetch step1 from api" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="200" width="160" height="80" as="geometry" />
+          <mxGeometry x="160" y="200" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fuM4s-kWlybQYmMzZw5S-1" value="save step1 to cookie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="320" width="160" height="80" as="geometry" />
+          <mxGeometry x="160" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-2" target="fuM4s-kWlybQYmMzZw5S-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-2" target="fuM4s-kWlybQYmMzZw5S-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fuM4s-kWlybQYmMzZw5S-2" value="step1 cookie exists?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="200" width="160" height="80" as="geometry" />
+          <mxGeometry x="520" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-16" value="yes" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-18" value="no" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
