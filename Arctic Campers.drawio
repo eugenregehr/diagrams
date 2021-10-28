@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T15:45:11.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="iWF9FMLxYg2lMpijV5g7" version="15.6.1" type="github"><diagram id="tskGtdOAMO9KEqky0ZxF" name="Page-1">zZTPT4MwFID/Go4mQHGbV+fU6IwHEk28NfRJOwtlXRHYX28rDxjBGXeaJ9rvvf76+opHlll9p2nBnxQD6YU+qz1y44Vh4JPIfhxpWjK7RJBqwTBpALHYQzcSaSkY7EaJRilpRDGGicpzSMyIUa1VNU57V3K8akFTmIA4oXJKXwUzvKWLcD7wexAp71YOZldtJKNdMp5kxylT1QEiK48stVKmbWX1EqST13lpx90eifYb05Cbvwx4fFlr6b9t9pvn9Xq73TYP8/ICZ/mkssQDXyv1IfLUQnveFAxu3jSdEa3KnIGbNPDIdcWFgbigiYtWtgYs4yaTGMbpQRuoj+476G3YMgKVgdGNTcEBC/SHBRRhtxpuo2f88CY67xQrIO1nHiTZBno6wVn4i7PY2ji7sSj6b8rIRNnOVZaVBEXgnqVWmVu3EGeX10tAeaE/tRfMfrC3OF2e7Q7v/zt28Bclqy8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-28T15:49:14.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="HnS7vVJa6hb34hXCgnbl" version="15.6.1" type="github">
+  <diagram id="tskGtdOAMO9KEqky0ZxF" name="Page-1">
+    <mxGraphModel dx="1034" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KVLrl0ZjzjOLLqqqyJ7u-1" value="Booking Mini-Widget&lt;br&gt;Vue App" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KVLrl0ZjzjOLLqqqyJ7u-2" value="Booking Site&lt;br&gt;Vue App" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="40" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KVLrl0ZjzjOLLqqqyJ7u-3" value="fetch step1 from api" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-1" value="save step1 to cookie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-2" value="step1 cookie exists?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
