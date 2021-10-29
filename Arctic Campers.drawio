@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T19:04:37.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="mWbaJ3ncS5aEKgnFQy_i" version="15.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-29T07:49:03.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="b0mNLnKMiJbN9PLV0Zjw" version="15.6.1" type="github">
   <diagram id="tskGtdOAMO9KEqky0ZxF" name="Page-1">
-    <mxGraphModel dx="946" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,11 +44,14 @@
         <mxCell id="fuM4s-kWlybQYmMzZw5S-22" value="step1 cookie&lt;br&gt;exists?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="160" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="fuM4s-kWlybQYmMzZw5S-25" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-25" value="&lt;span&gt;fetch step1&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;from api&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fuM4s-kWlybQYmMzZw5S-31" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-60" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-31" target="fuM4s-kWlybQYmMzZw5S-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-31" value="load step1 cookie&amp;nbsp;&lt;br&gt;in form" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fuM4s-kWlybQYmMzZw5S-43" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-33" target="fuM4s-kWlybQYmMzZw5S-42">
           <mxGeometry relative="1" as="geometry" />
@@ -65,17 +68,41 @@
         <mxCell id="fuM4s-kWlybQYmMzZw5S-46" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-42" target="fuM4s-kWlybQYmMzZw5S-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fuM4s-kWlybQYmMzZw5S-42" value="user data input" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-42" value="user data input&lt;br&gt;and send" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fuM4s-kWlybQYmMzZw5S-53" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-45" target="fuM4s-kWlybQYmMzZw5S-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fuM4s-kWlybQYmMzZw5S-45" value="save step1 &lt;br&gt;in cookie" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fuM4s-kWlybQYmMzZw5S-52" value="redirect to&amp;nbsp;&lt;br&gt;step2" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="610" width="120" height="80" as="geometry" />
+          <mxGeometry x="140" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-56" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-54" target="fuM4s-kWlybQYmMzZw5S-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-65" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-54" target="fuM4s-kWlybQYmMzZw5S-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-54" value="user data input&lt;br&gt;and send" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-63" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-57" target="fuM4s-kWlybQYmMzZw5S-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-57" value="step2" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-59" value="set step1 to done" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-66" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="fuM4s-kWlybQYmMzZw5S-64" target="fuM4s-kWlybQYmMzZw5S-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuM4s-kWlybQYmMzZw5S-64" value="save step1 &lt;br&gt;in cookie" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
