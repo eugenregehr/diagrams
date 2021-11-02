@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T09:48:22.097Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="foQD6Xvrbe_DOvkHWbh7" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T10:28:22.517Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="9eKBaar1FIqh6lovioQl" version="15.6.5" type="github">
   <diagram id="tskGtdOAMO9KEqky0ZxF" name="Page-1">
-    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,7 +164,7 @@
         <mxCell id="JREpE-hR880gttnIvglO-34" value="user data&amp;nbsp;submit" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="1120" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JREpE-hR880gttnIvglO-37" value="save rcm&amp;nbsp;cookie" style="whiteSpace=wrap;html=1;rounded=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="JREpE-hR880gttnIvglO-37" value="update rcm&amp;nbsp;cookie" style="whiteSpace=wrap;html=1;rounded=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1120" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JREpE-hR880gttnIvglO-40" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-39" target="JREpE-hR880gttnIvglO-37">
@@ -176,8 +176,78 @@
         <mxCell id="JREpE-hR880gttnIvglO-42" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-41" target="JREpE-hR880gttnIvglO-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-41" target="JREpE-hR880gttnIvglO-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="740" />
+              <mxPoint x="1440" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JREpE-hR880gttnIvglO-41" value="make request&lt;br&gt;go to payment" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1120" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-43" value="Step3: Payment" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="40" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-45" value="false" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-48" target="JREpE-hR880gttnIvglO-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-46" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-48" target="JREpE-hR880gttnIvglO-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-47" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;fontColor=default;" vertex="1" connectable="0" parent="JREpE-hR880gttnIvglO-46">
+          <mxGeometry x="-0.136" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-48" target="JREpE-hR880gttnIvglO-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-48" value="payment &lt;br&gt;succeed?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="140" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-49" target="JREpE-hR880gttnIvglO-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-49" value="error message" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-81" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-50" target="JREpE-hR880gttnIvglO-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-50" value="success message" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-75" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-57" target="JREpE-hR880gttnIvglO-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-57" value="Step4: Summary" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="500" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-59" value="go to step2" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-77" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-74" target="JREpE-hR880gttnIvglO-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-74" value="step4 done&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-79" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-76" target="JREpE-hR880gttnIvglO-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-76" value="save summary&lt;br&gt;in cookie" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-78" value="edit booking?" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-82" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-80" target="JREpE-hR880gttnIvglO-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-80" value="set step3 to done" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
