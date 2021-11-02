@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T09:46:41.014Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="oE2XeRiqrk6mHPZhmf3I" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T09:48:22.097Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="foQD6Xvrbe_DOvkHWbh7" version="15.6.5" type="github">
   <diagram id="tskGtdOAMO9KEqky0ZxF" name="Page-1">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="2000" math="0" shadow="0">
       <root>
@@ -158,8 +158,26 @@
         <mxCell id="JREpE-hR880gttnIvglO-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-34" target="JREpE-hR880gttnIvglO-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-34" target="JREpE-hR880gttnIvglO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JREpE-hR880gttnIvglO-34" value="user data&amp;nbsp;submit" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;fillColor=default;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="1120" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-37" value="save rcm&amp;nbsp;cookie" style="whiteSpace=wrap;html=1;rounded=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-40" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-39" target="JREpE-hR880gttnIvglO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-39" value="set step2 to done" style="whiteSpace=wrap;html=1;rounded=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-42" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="JREpE-hR880gttnIvglO-41" target="JREpE-hR880gttnIvglO-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JREpE-hR880gttnIvglO-41" value="make request&lt;br&gt;go to payment" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="700" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
